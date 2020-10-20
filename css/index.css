@@ -1,0 +1,367 @@
+/* google fonts */
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+*{
+    margin: 0; padding: 0;
+}
+body{
+    font-family: 'Montserrat', sans-serif;
+}
+.container{
+    width: 1140px;
+    margin: 0 auto;
+}
+header{
+    position: fixed;
+    width: 100%;
+    float: left;
+   background-color:#403A32;
+   
+}
+.logo{
+  width: 30%;
+  float: left;
+  padding-top: 15px;
+}
+menu{
+    width: 70%;
+  float: left;
+}
+
+.menu nav ul{
+    padding: 20px 20px;
+    text-decoration: none;
+}
+.menu nav ul li{
+    display: inline;
+    
+    list-style-type: none;
+    padding: 0px 20px;
+}
+.menu nav ul li a{
+    font-size: 20px;
+    font-weight: bold;
+    text-decoration: none;
+    color: white;;
+}
+.about{
+    
+    width: 100%;
+    float: left;
+    background-color: #cecece;
+    
+    
+ }
+.personal-info{
+   
+   width: 60%;
+   float: left;  
+
+}
+.personal-info p{
+    font-size: 25px;padding-top: 200px;
+    padding-left: 350px;
+    
+}
+.personal-info h2{
+    font-size: 55px;padding-left: 350px;
+}
+.personal-info b{
+   font-weight: bold;
+   font-size: 25px;
+   display: block;
+   padding-left: 350px;
+}
+.btn-one{
+     border-radius: 6px ;
+     padding: 10px 25px;
+     margin-top:25px;
+     margin-left:  350px;
+     font-size: 25px;
+     cursor: pointer;
+}
+.btn-two{
+    border-radius: 6px ;
+    padding: 10px 25px;
+    font-size: 25px;
+    background-color: black;
+    color: white;
+    cursor: pointer;
+}
+   
+
+.my-pic{
+    width: 40%;
+    float: left;   
+}
+.my-pic img{
+    padding-top: 100px;
+}
+
+.working-bio{
+    width: 100%;
+    float: left;background-color: #EFEFEF;
+    padding-bottom: 30px;
+    margin-bottom: 35px;
+    
+}
+.abt-me{
+    margin-top: -115px;
+    width: 100%;
+    float: left;
+    margin-bottom: 25px;background-color: #CECECE;
+    border-color: white;
+    box-shadow: 0px 0px 10px white;
+}
+.pic{
+    width: 30%;
+    float: left;
+    padding: 45px 15px;
+}
+.about-me{
+    width: 50%;
+    float: left;
+    text-align: left;
+    padding: 150px 90px;
+    
+}
+.about-me h2{
+    font-size: 35px;
+    font-weight: bold;
+  
+}
+.about-me b{
+    font-size: 20px; display: block;
+    padding-bottom: 20px;
+}
+.about-me p{
+    font-size: 20px;
+    line-height: 20px;
+}
+
+/* skills */
+.skill{
+    width: 100%;
+    float: left;
+    background-color: #CECECE;
+    margin-top: -45px;
+    padding-bottom: 35px;
+    padding-top: 35px;margin-bottom: 15px;
+}
+.web-design{
+   width: 40%;
+   
+   float: left;padding-right: 110px;
+   padding-top: 25px;
+   background-color: #EFEFEF;
+   
+}
+.web-design h2{
+    font-size: 30px;
+    font-weight: bold;
+    padding-left: 10px;
+}
+.web-design p{
+    font-size: 20px;
+    line-height: 25px;
+    padding-left: 10px;
+}
+.web-dev{
+    width: 50%;
+    float: left;
+    padding-top: 25px;
+    
+    padding-bottom: 10px;
+    background-color: #EFEFEF;
+   
+}
+.web-dev h2{
+    font-size: 30px;
+    font-weight: bold;
+    padding-left: 10px;
+}
+.web-dev p{
+    font-size: 20px;
+    line-height: 25px;
+    padding-left: 10px;
+}
+
+
+/* resume */
+.education{
+    width: 50%;
+    height: 500px;
+    float: left;
+    padding-top: 70px;
+    padding-right: 30px;
+}
+
+.back{
+    background-color: #F4F4F4;
+    margin-bottom: 30px;
+    padding-left: 10px; 
+}
+.back1{
+    background-color: #F4F4F4;padding-left: 10px;
+    
+}
+
+.experience{
+    padding-top: 70px;
+    float: left;
+    width: 45%;
+    height: 700px;
+}
+
+/* services */
+.my_services1{
+    width: 50%;
+    float: left;
+   
+}
+.my_services2{
+    width: 50%;
+    float: left;
+    
+}
+.my_services1 button{
+    border: 1px solid white;
+    background-color: white;
+    margin: 60px 70px;
+    line-height: 30px;
+    word-spacing: 5px;
+    
+}
+button i{
+    color: #FEC608;
+    font-size: 50px;
+    padding: 20px;cursor: pointer;
+}
+.my_services1 h3{
+    font-size: 20px;
+}
+.my_services1 p{
+    font-size: 15px;
+}
+.my_services2 button{
+    border: 1px solid white;
+    background-color: white;
+    margin: 55px 60px;
+    line-height: 30px;
+    word-spacing: 5px;
+}
+.my_services2 h3{
+    font-size: 20px;
+}
+.my_services2 p{
+    font-size: 15px;
+}
+
+/* portfolio */
+.my_portfolio1 div{
+    width: 25%;
+    padding-top: 30px;
+    float: left; 
+    
+}
+.my_portfolio1 div a{
+    text-decoration: none;
+    color: black;
+    font-size: 15px;
+}
+.clr{
+    color: #F4F4F4 !important;
+    background-color: #FEC608;
+}
+.my_portfolio2 div img{
+    width: 30%;
+    padding-top: 30px;
+    float: left; 
+    margin-right: 15px;
+    
+}
+.my_portfolio3 div{
+    width: 30%;
+    padding-top: 30px;
+    float: left; 
+    margin-right: 25px;
+    
+}
+
+
+
+.contact{
+    width: 25%;
+    padding-top: 30px;
+    float: left; 
+    margin-right: 25px;
+    
+    
+}
+.follow{
+    width: 25%;
+    padding-top: 30px;
+    float: left; 
+    margin-right: 25px;
+    
+}
+.follow a{
+    font-size: 50px;
+    float: left;
+    padding-top: 20px;
+    padding-right: 15px;
+    color: #FEC608;
+}
+.follow a:hover{
+    color: #5365BA;
+    transition: 0.5s;
+  
+
+}
+
+.text{
+    width: 25%;
+    padding-top: 30px;
+    float: left; 
+    margin-right: 25px;
+    
+}
+
+.text input{
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 20px;
+    padding-right: 120px;
+    margin-bottom: 25px;
+}
+
+.text textarea{
+    padding-left: 20px;
+}
+
+
+/* footer */
+.my_foot{
+
+    width: 100%;
+    height: 50px;
+    background-color: #4C4C4C;
+    float: left;
+    margin-top: 30px;
+}
+.my_foot1{
+    float: left;
+    color: #F4F4F4;
+    width: 50%;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 380px;
+    
+}
+.my_foot2{
+    float: left;
+    color: #F4F4F4;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    
+}
